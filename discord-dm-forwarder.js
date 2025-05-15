@@ -23,7 +23,7 @@ client.on('messageCreate', async (message) => {
     });
     console.log(`✅ Inviato a n8n: ${message.content}`);
   } catch (error) {
-    console.error('Errore durante l'invio a n8n:', error.message);
+    console.error("Errore durante l'invio a n8n:", error.message);
   }
 });
 
