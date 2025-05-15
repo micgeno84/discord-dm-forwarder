@@ -16,7 +16,7 @@ client.on('messageCreate', async (message) => {
   if (message.channel.type !== 1 || message.author.bot) return;
 
   try {
-    await axios.post(process.env.N8N_WEBHOOK_URL, {
+    await axios.post(process.env.https://chat2date.app.n8n.cloud/webhook-test/chat2date, {
       content: message.content,
       channel_id: message.channel.id,
       channel_type: 1
@@ -27,4 +27,4 @@ client.on('messageCreate', async (message) => {
   }
 });
 
-client.login(process.env.DISCORD_BOT_TOKEN);
+client.login(process.env.MTM3MjYzMTc0MTg2ODUzOTk4OA.GQYdve.BiB2lLjSQ2EpzN6330ErG9G_QO8Lzj4L5ZDWig);
